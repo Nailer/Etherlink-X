@@ -4,8 +4,13 @@ import { useState } from "react"
 import { HomePage } from "./pages/HomePage"
 import { ExchangePage } from "./pages/ExchangePage"
 import "./App.css"
+import type { ThirdwebClient } from "thirdweb";
 
-function App() {
+interface AppProps {
+  thirdwebClient: ThirdwebClient;
+}
+
+function App({thirdwebClient}: AppProps) {
   const [currentPage, setCurrentPage] = useState("home")
 
   const navigateTo = (page: string) => {

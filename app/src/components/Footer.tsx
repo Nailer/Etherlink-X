@@ -66,9 +66,9 @@ export function Footer() {
             <div className="w-6 h-6 bg-gradient-to-r from-purple-600 to-purple-800 rounded flex items-center justify-center">
               <div className="w-3 h-3 bg-white rounded-sm transform rotate-45"></div>
             </div>
-            <span className="font-bold text-gray-900">JUMPER</span>
+            <span className="font-bold text-gray-900">ETHERLINK-X</span>
           </div>
-          <p className="mt-4 md:mt-0 text-sm text-gray-600">© 2024 Jumper Exchange. All rights reserved.</p>
+          <p className="mt-4 md:mt-0 text-sm text-gray-600">© 2024 ETHERLINK-X Exchange. All rights reserved.</p>
         </div>
       </div>
     </footer>

@@ -29,7 +29,7 @@ export function Features() {
     <section className="px-6 lg:px-8 py-20">
       <div className="mx-auto max-w-7xl">
         <div className="text-center mb-16">
-          <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Why Choose Jumper?</h2>
+          <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Why Choose ETHERLINK-X?</h2>
           <p className="mt-4 text-lg text-gray-600">The most advanced cross-chain infrastructure for DeFi</p>
         </div>
 

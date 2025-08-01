@@ -1,5 +1,3 @@
-import Link from "next/link"
-
 export function Footer() {
   return (
     <footer className="bg-white/50 backdrop-blur-sm border-t border-purple-100">
@@ -9,19 +7,13 @@ export function Footer() {
             <h3 className="text-sm font-semibold text-gray-900">Product</h3>
             <ul className="mt-4 space-y-2">
               <li>
-                <Link href="#" className="text-sm text-gray-600 hover:text-purple-600">
-                  Exchange
-                </Link>
+                <button className="text-sm text-gray-600 hover:text-purple-600">Exchange</button>
               </li>
               <li>
-                <Link href="#" className="text-sm text-gray-600 hover:text-purple-600">
-                  Bridge
-                </Link>
+                <button className="text-sm text-gray-600 hover:text-purple-600">Bridge</button>
               </li>
               <li>
-                <Link href="#" className="text-sm text-gray-600 hover:text-purple-600">
-                  Gas Station
-                </Link>
+                <button className="text-sm text-gray-600 hover:text-purple-600">Gas Station</button>
               </li>
             </ul>
           </div>
@@ -29,19 +21,13 @@ export function Footer() {
             <h3 className="text-sm font-semibold text-gray-900">Resources</h3>
             <ul className="mt-4 space-y-2">
               <li>
-                <Link href="#" className="text-sm text-gray-600 hover:text-purple-600">
-                  Documentation
-                </Link>
+                <button className="text-sm text-gray-600 hover:text-purple-600">Documentation</button>
               </li>
               <li>
-                <Link href="#" className="text-sm text-gray-600 hover:text-purple-600">
-                  API
-                </Link>
+                <button className="text-sm text-gray-600 hover:text-purple-600">API</button>
               </li>
               <li>
-                <Link href="#" className="text-sm text-gray-600 hover:text-purple-600">
-                  Support
-                </Link>
+                <button className="text-sm text-gray-600 hover:text-purple-600">Support</button>
               </li>
             </ul>
           </div>
@@ -49,19 +35,13 @@ export function Footer() {
             <h3 className="text-sm font-semibold text-gray-900">Company</h3>
             <ul className="mt-4 space-y-2">
               <li>
-                <Link href="#" className="text-sm text-gray-600 hover:text-purple-600">
-                  About
-                </Link>
+                <button className="text-sm text-gray-600 hover:text-purple-600">About</button>
               </li>
               <li>
-                <Link href="#" className="text-sm text-gray-600 hover:text-purple-600">
-                  Blog
-                </Link>
+                <button className="text-sm text-gray-600 hover:text-purple-600">Blog</button>
               </li>
               <li>
-                <Link href="#" className="text-sm text-gray-600 hover:text-purple-600">
-                  Careers
-                </Link>
+                <button className="text-sm text-gray-600 hover:text-purple-600">Careers</button>
               </li>
             </ul>
           </div>
@@ -69,19 +49,13 @@ export function Footer() {
             <h3 className="text-sm font-semibold text-gray-900">Social</h3>
             <ul className="mt-4 space-y-2">
               <li>
-                <Link href="#" className="text-sm text-gray-600 hover:text-purple-600">
-                  Twitter
-                </Link>
+                <button className="text-sm text-gray-600 hover:text-purple-600">Twitter</button>
               </li>
               <li>
-                <Link href="#" className="text-sm text-gray-600 hover:text-purple-600">
-                  Discord
-                </Link>
+                <button className="text-sm text-gray-600 hover:text-purple-600">Discord</button>
               </li>
               <li>
-                <Link href="#" className="text-sm text-gray-600 hover:text-purple-600">
-                  GitHub
-                </Link>
+                <button className="text-sm text-gray-600 hover:text-purple-600">GitHub</button>
               </li>
             </ul>
           </div>
@@ -92,9 +66,9 @@ export function Footer() {
             <div className="w-6 h-6 bg-gradient-to-r from-purple-600 to-purple-800 rounded flex items-center justify-center">
               <div className="w-3 h-3 bg-white rounded-sm transform rotate-45"></div>
             </div>
-            <span className="font-bold text-gray-900">JUMPER</span>
+            <span className="font-bold text-gray-900">ETHERLINK</span>
           </div>
-          <p className="mt-4 md:mt-0 text-sm text-gray-600">© 2024 Jumper Exchange. All rights reserved.</p>
+          <p className="mt-4 md:mt-0 text-sm text-gray-600">© 2024 ETHERLINK Exchange. All rights reserved.</p>
         </div>
       </div>
     </footer>

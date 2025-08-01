@@ -10,7 +10,7 @@ export function Header() {
           <div className="w-8 h-8 bg-gradient-to-r from-purple-600 to-purple-800 rounded-lg flex items-center justify-center">
             <div className="w-4 h-4 bg-white rounded-sm transform rotate-45"></div>
           </div>
-          <span className="text-xl font-bold text-gray-900">JUMPER</span>
+          <span className="text-xl font-bold text-gray-900">ETHERLINK</span>
         </Link>
       </div>
 
